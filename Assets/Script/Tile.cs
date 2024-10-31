@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    public bool hasUnit;
-    
+    public bool hasUnit = false;
+    public GameObject currentUnit; // Add this line
 }
