@@ -12,14 +12,18 @@
 scripts:
 |  Script       | Description                                                  | Development Time |
 | ------------------- | ------------------------------------------------------------ | -------------- |
-| `ZombieBehaviorScroller.cs` | Handles Zombie idle,roaming,chase behavior and animation | ≈ 4 hours |
-| `UIManager.cs` | Handles Health and Ammo UI | ≈ 2 hours |
-| `PlayerMovement.cs`  | Handle Player Movement | ≈ 3 hours |
-| `MouseMovement.cs`  | Handles FPS camera movement | ≈ 2 hours |
-| `HealthSystem.cs`  | Handles Zombie and Player Health | ≈ 2 hours |
-| `GunController.cs`  | Manage Gun FireRate,Animation,Ammo | ≈ 4 hours |
-| `Bullet.cs`  | Handles Bullet Damage | ≈ 2 hours |
-| `etc`  | | ≈ 18 hours |
+| `BasicShooter.cs` | Handles the animation,shoot,and takeDamage for Archer unit  | ≈ 4 hours |
+| `Bullet.cs` | Handles the Damage and collider for bulelt  | ≈ 1 hours |
+| `Coin.cs` | Handles coin drop and update coins to GameManager  | ≈ 4 hours |
+| `CoinSpawner.cs` | Manage coin random generator on the map  | ≈ 3 hours |
+| `Enemy.cs` | Handles Enemy animation,attack,stats,and walk  | ≈ 4 hours |
+| `EnemySpawner.cs` | Handles random enemy spawner location | ≈ 2 hours |
+| `GameManager.cs` | Manage Coins amount,buy unit,Tile to place unit  | ≈ 6 hours |
+| `Monk.cs` | Handles monk unit to generate coins | ≈ 2 hours |
+| `Tile.cs` | Check either the tiles have unit or not  | ≈ 4 hours |
+| `Unit.cs` | Handles unit health amount,animator,unit layer,sprite for unit in tile | ≈ 5 hours |
+| `UnitSlot.cs` | Handles inventory to buy unit and show amount of coins  | ≈ 4 hours |
+| `etc`  | | ≈ 12 hours |
 
 This project also uses these package:
 - Universal RP
